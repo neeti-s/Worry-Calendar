@@ -11,6 +11,13 @@
 		C90742992A01386A00830D26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90742982A01386A00830D26 /* ContentView.swift */; };
 		C907429B2A01386B00830D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C907429A2A01386B00830D26 /* Assets.xcassets */; };
 		C907429E2A01386B00830D26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C907429D2A01386B00830D26 /* Preview Assets.xcassets */; };
+		C90742A72A0138E000830D26 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90742A62A0138E000830D26 /* Home.swift */; };
+		C90742A92A0138F500830D26 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90742A82A0138F500830D26 /* CustomDatePicker.swift */; };
+		C90742AB2A01390300830D26 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90742AA2A01390300830D26 /* DateValue.swift */; };
+		C90742AD2A01391100830D26 /* Worry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90742AC2A01391100830D26 /* Worry.swift */; };
+		C90742AF2A013D0F00830D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90742AE2A013D0F00830D26 /* Assets.xcassets */; };
+		C90742B12A013D6F00830D26 /* ForgetWorry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90742B02A013D6F00830D26 /* ForgetWorry.swift */; };
+		C90742B32A013D7C00830D26 /* AddWorry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90742B22A013D7C00830D26 /* AddWorry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		C90742982A01386A00830D26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C907429A2A01386B00830D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C907429D2A01386B00830D26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C90742A62A0138E000830D26 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C90742A82A0138F500830D26 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		C90742AA2A01390300830D26 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		C90742AC2A01391100830D26 /* Worry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worry.swift; sourceTree = "<group>"; };
+		C90742AE2A013D0F00830D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90742B02A013D6F00830D26 /* ForgetWorry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetWorry.swift; sourceTree = "<group>"; };
+		C90742B22A013D7C00830D26 /* AddWorry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,9 @@
 		C907428A2A01386A00830D26 = {
 			isa = PBXGroup;
 			children = (
+				C90742AE2A013D0F00830D26 /* Assets.xcassets */,
+				C90742A52A01389500830D26 /* Model */,
+				C90742A42A01388A00830D26 /* View */,
 				C90742952A01386A00830D26 /* WorryCalendar */,
 				C90742942A01386A00830D26 /* Products */,
 			);
@@ -65,6 +82,26 @@
 				C907429D2A01386B00830D26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C90742A42A01388A00830D26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C90742A62A0138E000830D26 /* Home.swift */,
+				C90742A82A0138F500830D26 /* CustomDatePicker.swift */,
+				C90742B02A013D6F00830D26 /* ForgetWorry.swift */,
+				C90742B22A013D7C00830D26 /* AddWorry.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C90742A52A01389500830D26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C90742AA2A01390300830D26 /* DateValue.swift */,
+				C90742AC2A01391100830D26 /* Worry.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C907429E2A01386B00830D26 /* Preview Assets.xcassets in Resources */,
+				C90742AF2A013D0F00830D26 /* Assets.xcassets in Resources */,
 				C907429B2A01386B00830D26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90742A92A0138F500830D26 /* CustomDatePicker.swift in Sources */,
+				C90742AD2A01391100830D26 /* Worry.swift in Sources */,
 				C90742992A01386A00830D26 /* ContentView.swift in Sources */,
+				C90742A72A0138E000830D26 /* Home.swift in Sources */,
 				C90742972A01386A00830D26 /* WorryCalendarApp.swift in Sources */,
+				C90742B32A013D7C00830D26 /* AddWorry.swift in Sources */,
+				C90742B12A013D6F00830D26 /* ForgetWorry.swift in Sources */,
+				C90742AB2A01390300830D26 /* DateValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
